@@ -29,7 +29,7 @@ public class planilla {
        double salario[]= new double [cant];
        
        for(int i=0; i<cant; i++){
-           nombre[i]=JOptionPane.showInputDialog("Nombre del empleado"+(i+1));
+           nombre[i]=JOptionPane.showInputDialog("Nombre del empleado "+(i+1));
            hrs[i]=Integer.parseInt(JOptionPane.showInputDialog("Cantidad de horas trabajadas"));
            sxh[i]=Double.parseDouble(JOptionPane.showInputDialog("Salario por horas"));
            salario[i]=hrs[i]*sxh[i];
